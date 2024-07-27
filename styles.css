@@ -1,7 +1,8 @@
 .insta {
 
-padding: 3px;
-font-size:x-large;
+padding: 5px;
+margin: 3px;
+font-size:xx-large;
 
 }
     
@@ -10,11 +11,177 @@ font-size:x-large;
 }
 
 span {
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .dropdown {
 
     margin: 2px;
 }
+
+.gridIcon {
+    font-size:xx-large;
+
+}
+
+.navBarIcons {
+    font-size: xx-large;
+    padding: 3px;
+}
+.paragraph1 {
+
+    font-size: larger;
+    text-align: justify;
+
+}
+
+
+/* .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+.post {
+    height: 60%;
+    width: 25%;
+    border: solid, black, 1px;
+   
+}
+
+
+.headerbox {
+
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+    
+}
+
+.iconsleftbox {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+} 
+
+
+.headericonsleft{
+
+    font-size: xx-large;
+    margin-right: 5px;
+    
+}
+
+.iconsrightbox{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.headericonsright {
+
+    font-size: 27px;
+}
+
+
+.picture {  
+padding: 2px;
+
+}
+
+.img {
+object-fit: contain;
+width: 100%;
+height: 100%;
+
+}
+
+.footer {
+
+
+}
+    
+.paragraph1 {
+    
+    color:black;
+    text-align: justify;
+    padding: 3px;
+    margin-bottom: -20px;
+    
+    
+}
+
+.paragraph2 {
+    color: black;
+    text-align: justify;
+    padding: 5px;
+    padding-bottom: 1px;
+   
+}
+ 
+i {
+    
+    margin: 1px;
+    padding: 1px;
+    
+    }
+
+
+
+.icons {
+    display:flex;
+    justify-content: space-between;
+    padding:1px;
+}
+
+.iconsleft {
+    font-size: larger;
+    float:left;
+    margin: 1px;
+    
+} 
+
+.iconsright {
+    font-size: larger;
+    float: top;
+    margin: 3px;
+    
+} 
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  p  {
+    font-family: "roboto";
+   }
+
+   h4  {
+    font-family: "roboto";
+   }
+ 
+   .headericonsleft i:hover {
+    color: #380ef3; 
+    transform: scale(1.2);
+    transition: transform 0.3s ease, color 0.3s ease; 
+  }
+
+  .iconsleft i {
+  color: #000; 
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.iconsleft i:hover {
+  color: #ff6666; 
+  transform: scale(1.2); 
+} */
 
