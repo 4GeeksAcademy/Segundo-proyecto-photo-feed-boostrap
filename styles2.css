@@ -1,0 +1,42 @@
+.insta {
+
+    padding: 5px;
+    font-size:xx-large;
+    margin-top: 3px;
+    
+    
+    }
+        
+    
+    span {
+        font-size: xx-large;
+        text-align:justify;    
+        text-wrap:balance
+      
+    }
+    
+    .dropdown {
+    
+        margin: 2px;
+    }
+    
+    .gridIcon {
+        font-size:xx-large;
+    
+    }
+    
+    .navBarIcons {
+        font-size: xx-large;
+        padding: 3px;
+    }
+    .paragraph1 {
+    
+        font-size: larger;
+        text-align: justify;
+    
+    }
+    
+    .crear-post {
+    
+        margin: 4px;
+    }
