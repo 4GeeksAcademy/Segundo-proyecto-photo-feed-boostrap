@@ -5,61 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Segundo Proyecto con Bootstrap</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="single-view.html">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
 
+  <!-- Nav Bar Header Opener -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i><span>Instagram</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form class="d-flex">
+
+            <button class="btn btn-success m-1 " type="submit" data-bs-toggle="modal" data-bs-target="#modal1">Crear
+              nuevo post</button>
+            <div class="dropdown m-1">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-gear"></i>
+              </button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Pofile</a></li>
+                <li><a class="dropdown-item" href="#">Accesability</a></li>
+                <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
+                <li><a class="dropdown-item" href="#">Log Out</a></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Nav Bar Header Closer -->
+
 
   <div class="container-md"> <!-- Apertura de div container principal -->
 
-    <div class="container-md" id="gridView"> <!-- Apertura de div grid View -->
 
-      <div> <!-- Nav Bar Header Opener -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i><span>Instagram</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              </ul>
-              <form class="d-flex">
-
-                <button class="btn btn-success m-1 " type="submit" data-bs-toggle="modal" data-bs-target="#modal1">Crear
-                  nuevo post</button>
-                <div class="dropdown m-1">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-gear"></i>
-                  </button>
-
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Pofile</a></li>
-                    <li><a class="dropdown-item" href="#">Accesability</a></li>
-                    <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
-                    <li><a class="dropdown-item" href="#">Log Out</a></li>
-                  </ul>
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-
-      </div> <!-- Nav Bar Header Closer -->
+      
 
 
       <div> <!-- Nav Bar Grid Links Opener -->
@@ -77,63 +77,78 @@
       </div> <!-- Nav Bar Grid Links Closer -->
 
 
-      <div class="card-md d-flex mt-3"> <!-- Pictures Container Opener -->
+      <!-- Pictures Container Opener -->
 
-        <div class="row"> <!-- Apertura Primer grupo de fotos -->
+        <div class="row  p-0 gx-1 gy-1 align"> <!-- Apertura Primer grupo de fotos -->
           <div class="col">
-            <div class="card">
+            <div class="ratio ratio-16x9">
               <img src="https://www.crowdstrike.com/blog/wp-content/uploads/2018/09/CrowdStrike-logo.jpg"
                 class="img-thumbnail" alt="...">
             </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2014/09/11/12/45/spacecraft-441708_640.jpg"
-                class="img-thumbnail" alt="...">
-            </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2023/12/09/18/38/woman-8439946_640.png"
-                class="img-thumbnail" alt="...">
-            </div>
           </div>
-        </div> <!-- Cierre Primer grupo de fotos -->
-
-        <div class="row"> <!-- Apertura Segundo grupo de fotos -->
           <div class="col">
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2022/12/26/11/37/bitcoin-7678812_640.jpg"
-                class="img-thumbnail" alt="...">
-            </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2015/02/13/04/27/run-634702_640.jpg"
-                class="img-thumbnail" alt="...">
-            </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2017/08/06/04/31/people-2588747_640.jpg"
-                class="img-thumbnail" alt="...">
+            <div class="ratio ratio-16x9">
+              <img src="https://cdn.pixabay.com/photo/2014/09/11/12/45/spacecraft-441708_640.jpg" class="img-thumbnail"
+                alt="...">
             </div>
           </div>
-        </div> <!-- Cierre Segundo grupo de fotos -->
-
-        <div class="row"> <!-- Apertura Tercer grupo de fotos -->
           <div class="col">
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2016/04/01/09/33/athlete-1299436_1280.png"
-                class="img-thumbnail" alt="...">
-            </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2023/08/29/10/32/rings-8220935_640.jpg"
-                class="img-thumbnail" alt="...">
-            </div>
-            <div class="card">
-              <img src="https://cdn.pixabay.com/photo/2017/08/30/12/43/venezuela-2696937_640.jpg"
-                class="img-thumbnail" alt="...">
+            <div class="ratio ratio-16x9">
+              <img src="https://cdn.pixabay.com/photo/2023/12/09/18/38/woman-8439946_640.png" class="img-thumbnail"
+                alt="...">
             </div>
           </div>
-        </div> <!-- Cierre Tercer grupo de fotos -->
+
+        </div>
+       <!-- Cierre Primer grupo de fotos -->
+
+      <div class="row  p-0 gx-1 gy-1 align"> <!-- Apertura Segundo grupo de fotos -->
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <img src="https://cdn.pixabay.com/photo/2022/12/26/11/37/bitcoin-7678812_640.jpg" class="img-thumbnail"
+              alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <img src="https://cdn.pixabay.com/photo/2015/02/13/04/27/run-634702_640.jpg" class="img-thumbnail"
+              alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="ratio ratio-16x9">
+            <img src="https://cdn.pixabay.com/photo/2017/08/06/04/31/people-2588747_640.jpg" class="img-thumbnail"
+              alt="...">
+          </div>
+        </div>
+      </div>      <!-- Cierre Segundo grupo de fotos -->
+
+    <div class="row  p-0 gx-1 gy-1 align"> <!-- Apertura Tercer grupo de fotos -->
+      <div class="col">
+        <div class="ratio ratio-16x9">
+          <img src="https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_640.jpg" class="img-thumbnail"
+            alt="...">
+        </div>
+      </div>
+      <div class="col">
+        <div class="ratio ratio-16x9">
+          <img src="https://cdn.pixabay.com/photo/2023/08/29/10/32/rings-8220935_640.jpg" class="img-thumbnail"
+            alt="...">
+        </div>
+      </div>
+      <div class="col">
+        <div class="ratio ratio-16x9">
+          <img src="https://cdn.pixabay.com/photo/2017/08/30/12/43/venezuela-2696937_640.jpg" class="img-thumbnail"
+            alt="...">
+        </div>
+      </div>
+
+    </div> <!-- Cierre Tercer grupo de fotos -->
 
 
 
 
-      </div> <!-- Pictures Container Closer -->
+     <!-- Pictures Container Closer -->
 
     </div> <!-- cierre de div grid View -->
 
@@ -142,30 +157,30 @@
 
 
 
-    <!-- Modal -->
+  <!-- Modal -->
 
-    <div class="modal" tabindex="-1" id="modal1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Create a new post</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <div class="modal" tabindex="-1" id="modal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Create a new post</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Add the caption of your post here:</p>
+          <div>
+            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-camera-fill"></i></button>
+            <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-geo-alt-fill"></i></button>
           </div>
-          <div class="modal-body">
-            <p>Add the caption of your post here:</p>
-            <div>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-camera-fill"></i></button>
-              <button type="button" class="btn btn-secondary btn-sm"><i class="bi bi-geo-alt-fill"></i></button>              
-            </div>
-         </div>
+        </div>
 
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
+  </div>
 
 
 
@@ -175,7 +190,7 @@
 
 
 
-  </div> <!-- cierre de div container principal -->
+  <!-- cierre de div container principal -->
 
 
 
