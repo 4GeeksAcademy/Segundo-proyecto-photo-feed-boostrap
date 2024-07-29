@@ -1,4 +1,29 @@
-.insta {
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    text-wrap: balance;
+    text-align: justify;
+    
+}
+.bi {
+
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .insta {
 
     padding: 5px;
     font-size:xx-large;
@@ -39,4 +64,4 @@
     .crear-post {
     
         margin: 4px;
-    }
+    } */
