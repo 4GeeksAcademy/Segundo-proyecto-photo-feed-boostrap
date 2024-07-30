@@ -18,43 +18,45 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i><span>Instagram</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn btn-success m-1 " type="submit" data-bs-toggle="modal"
+                        data-bs-target="#modal1">Crear nuevo post</button>
+                    <div class="dropdown m-1">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-gear"></i>
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Pofile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesability</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
 
     <div class="container-md"> <!-- Apertura de div Single View -->
 
         <div class="card-md"> <!-- Nav Bar Header Opener -->
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i><span>Instagram</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        </ul>
-                        <form class="d-flex">
-
-                            <button class="btn btn-success m-1 " type="submit" data-bs-toggle="modal"
-                                data-bs-target="#modal1">Crear nuevo post</button>
-                            <div class="dropdown m-1">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="bi bi-gear"></i>
-                                </button>
-
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Pofile</a></li>
-                                    <li><a class="dropdown-item" href="#">Accesability</a></li>
-                                    <li><a class="dropdown-item" href="#">Privacy & Data</a></li>
-                                    <li><a class="dropdown-item" href="#">Log Out</a></li>
-                                </ul>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+           
 
 
 
@@ -77,7 +79,7 @@
         </div> <!-- Nav Bar Grid Links Closer -->
 
 
-        <div class="container-md d-flex justify-content-center"> <!-- Apertura container de grupo de posts-->
+        <div class="container-md-sm d-flex justify-content-center"> <!-- Apertura container de grupo de posts-->
 
             <div class="row-md">
             
@@ -114,18 +116,20 @@
 
                 <div class="row d-flex justify-content-center">
 
-                    <div class="row">
+                    
+                        <div class="col-md">
                         <img src="https://www.crowdstrike.com/blog/wp-content/uploads/2018/09/CrowdStrike-logo.jpg" class="img-thumbnail"
                             alt="...">
+                        
                     </div>
                 </div>
 
 
-                <div class="row mt-2">
+                <div class="row-md mt-2">
                     <p> <strong>2.1 mil Likes </strong></p>
                 </div>
 
-                <div class="row">
+                <div class="row-md">
                     <div>
                     <p>La actualización defectuosa de la solución de ciberseguridad que generó un apagón informático sin precedentes el pasado viernes levanta dudas en torno a las responsabilidades de los proveedores de ofrecer garantías de calidad en sus productos.  </p>
                 </div>
@@ -139,7 +143,7 @@
 
             <div class="card-md mb-3" style="width: 30rem;"> <!-- Apertura Card Post 2-->
 
-                <div class="row"> <!-- Apertura fila nav bar del post 2 -->
+                <div class="row-md"> <!-- Apertura fila nav bar del post 2 -->
 
                     <div class="container-md">
 
@@ -165,20 +169,20 @@
                 </div>
 
 
-                <div class="row d-flex justify-content-center">
+                <div class="row-md d-flex justify-content-center">
 
-                    <div class="row">
+                    <div class="row-md">
                         <img src="https://elintransigente.com/wp-content/uploads/2021/07/Javier-Milei-3007-1.jpg" class="img-thumbnail"
                             alt="...">
                     </div>
                 </div>
 
 
-                <div class="row mt-2">
+                <div class="row-md mt-2">
                     <p> <strong>1500 Likes </strong></p>
                 </div>
 
-                <div class="row">
+                <div class="row-md">
                     <div>
                     <p>“No hay plata”. Con esta contundente frase y con el Congreso de la Nación a sus espaldas, el presidente de Argentina, Javier Milei, se dirigía a las miles de personas que se congregaron para escucharlo en su primer discurso al frente del país, aquel 10 de diciembre de 2023. Ya pasaron exactamente seis meses de aquellas palabras y una sucesión de acontecimientos en los que Milei no pasó inadvertido, tanto a nivel nacional como internacional. </p>
                 </div>
@@ -193,7 +197,7 @@
 
             <div class="card-md mb-3" style="width: 30rem;"> <!-- Apertura Card Post 3-->
 
-                <div class="row"> <!-- Apertura fila nav bar del post 3 -->
+                <div class="row-md"> <!-- Apertura fila nav bar del post 3 -->
 
                     <div class="container-md">
 
@@ -219,20 +223,20 @@
                 </div>
 
 
-                <div class="row d-flex justify-content-center">
+                <div class="row-md d-flex justify-content-center">
 
-                    <div class="row">
+                    <div class="row-md">
                         <img src="https://cdn.pixabay.com/photo/2023/12/09/18/38/woman-8439946_640.png" class="img-thumbnail"
                             alt="...">
                     </div>
                 </div>
 
 
-                <div class="row mt-2">
+                <div class="row-md mt-2">
                     <p> <strong>5.6 mil Likes </strong></p>
                 </div>
 
-                <div class="row">
+                <div class="row-md">
                     <div>
                     <p>La inteligencia artificial ( IA) ha experimentado un crecimiento exponencial en las últimas décadas, lo que ha llevado a su integración en numerosos aspectos de nuestra vida cotidiana. Desde asistentes virtuales y sistemas de recomendación hasta vehículos autónomos y diagnósticos médicos, la  IA está transformando nuestra forma de vivir y trabajar. En este artículo, exploraremos diversas aplicaciones de la inteligencia artificial en la vida cotidiana y cómo estas tecnologías están mejorando nuestras vidas. </p>
                 </div>
